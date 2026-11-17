@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Hoje', style: Theme.of(context).textTheme.bodyMedium),
+          Text('lula morra', style: Theme.of(context).textTheme.bodyMedium),
           const SizedBox(height: 4),
           Text(
             '${today?.weekdayName ?? ''} · ${_formatToday(now)}',
